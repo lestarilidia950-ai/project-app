@@ -1,0 +1,206 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-bar {
+    background-color: white;
+    height: 80px;
+}
+
+.content-nav-bar{
+    background-color: #D1DACC;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+.logo {
+    width: auto;
+    height: 80px;
+}
+
+.nav-bar-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar-menu li{
+    margin: 0px 15px;
+}
+
+.nav-bar-menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-bar-menu li a:hover {
+    color: rgb(212, 92, 22);
+}
+
+
+.btn button {
+    background-color: #000000;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 7px;
+    border-color: white;
+}
+
+.btn1 {
+    margin-right: 0px !important;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 7px;
+    border-color: white;
+}
+
+.faq {
+    background-color: #66BD5C;   /* hijau polos */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  
+    margin-bottom: 10px;
+    border: none;        /* 👉 hapus border hitam */
+    outline: none;       /* 👉 hapus outline saat diklik */
+    box-shadow: none;    /* 👉 hilangkan efek bayangan */
+  }
+
+img{
+    max-width: 300px;
+}
+.container {
+    max-width: 1024px;
+    background-color: rgb(126, 126, 201);
+    margin: 0px auto;
+}
+
+.container2 {
+    max-width: 1024px;
+    background-color: rgb(183, 201, 126);
+    margin: 0px auto;
+}
+
+.container3 {
+    max-width: 1024px;
+    background-color: rgb(126, 201, 167);
+    margin: 0px auto;
+}
+
+.container4 {
+    max-width: 1024px;
+    background-color: rgb(126, 190, 201);
+    margin: 0px auto;
+}
+
+.container5 {
+    max-width: 1024px;
+    background-color: rgb(201, 126, 126);
+    margin: 0px auto;
+}
+
+.container6 {
+    max-width: 1024px;
+    background-color: rgb(201, 126, 186);
+    margin: 0px auto;
+}
+
+.container7 {
+    max-width: 1024px;
+    background-color: rgb(201, 126, 178);
+    margin: 0px auto;
+}
+
+.container8 {
+    max-width: 1024px;
+    background-color: rgb(201, 130, 126);
+    margin: 0px auto;
+}
+
+.container9 {
+    max-width: 1024px;
+    background-color: rgb(141, 126, 201);
+    margin: 0px auto;
+}
+
+.container10 {
+    text-align: center;   
+    margin-bottom: 20px;
+    max-width: 1024px;
+    background-color: rgb(201, 126, 183);
+    margin: 0px auto;
+}
+
+h1 {
+    border-bottom: 2px solid #333; 
+    padding-bottom: 8px;          
+  }
+  h2 {
+    margin-left: 0; /* judul rata kiri */
+  }
+  ol {
+    padding-left: 0;          /* hilangkan indent bawaan */
+    list-style-position: inside; /* nomor sejajar dengan teks */
+  }
+  li {
+    margin: 6px 0; /* kasih jarak biar rapi */
+  }
+
+  .container-panduan {
+    background-color: #d1dacc;
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1024px;   /* ✅ samakan dengan container lain */
+    margin: 0 auto;
+  }
+  
+  .container-panduan h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .panduan-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 kotak sejajar */
+    gap: 20px;  
+  }
+  
+  .panduan-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .panduan-item h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .panduan-item p {
+    
+    color: #333;
+  } 
+  
+  .card1 {
+        width: 250px; 
+        height: 700px;
+        padding: 16px;  
+        background-color: #AEC8A4; 
+        color: #0A400C;
+        text-align: justify;
+        margin: 0px;
+        margin-bottom: 10px;
+    }

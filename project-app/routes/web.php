@@ -3,6 +3,7 @@
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PanduanpostController;
 use App\Models\panduanpost;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,4 +24,10 @@ Route::get('/kontak', function () {return view('kontak'); })->name('kontak');
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
 
-
+Route::get('/run-storage-link', function () {
+    Artisan::call('storage:link');
+    return response()->json([
+        'message' => 'Storage link created succcesfully.',
+        'output' => Artisan::output(),
+    ]);
+})->name('storage.link');
